@@ -23,9 +23,15 @@ public class MovieName{
 		String movieName19="saptasagardache";
 		String movieName20="milana";
 		
-		String[] movieName={movieName1,movieName2,movieName3,movieName4,movieName5,movieName6,movieName7,movieName8,movieName9,movieName10};
+		String[] movieName={movieName1,movieName2,movieName3,movieName4,movieName5,movieName6,movieName7,movieName8,movieName9};
 		
 		for(int index=0; index<movieName.length;index++){
+            String ref=movieName[index];
+			System.out.println("movie name:"+ref);
+			System.out.println("index:"+index);
+		} 
+		
+		for(int index=movieName.length-1; index>=0;index--){
             String ref=movieName[index];
 			System.out.println("movie name:"+ref);
 			System.out.println("index:"+index);
