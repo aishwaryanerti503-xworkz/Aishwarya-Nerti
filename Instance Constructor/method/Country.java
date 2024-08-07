@@ -1,7 +1,7 @@
 class Country{
 	String name;
 	String continent;
-	State state=new State("tamilnadu","tamil");
+	String state=new State("tamilnadu","tamil");
 	
 	public Country(){
 		System.out.println("created  country without parameter constructor");
